@@ -1,1 +1,54 @@
 @import url(/bootstrap-4.6.1-dist/css/responsive-style.css);
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+textarea {
+  resize: none;
+}
+h1, h2, h3, h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  color: rgba(0,0,0,.9);
+}
+p {
+  font-size: 16px;
+  line-height: 28px;
+}
+.sub_heading {
+  font-weight: 600;
+}
+/* ===== nav ===== */
+.mini_header_btn a {
+  color: #151515;
+}
+.navbar-light .navbar-brand {
+  font-size: 22px;
+  font-weight: 600;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #151515;
+}
+
+/* ===== top slider ===== */
+.top_slider {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+.slider_icon a i {
+  font-size: 28px;
+  color: #151515;
+}
+
+/* ===== footer ===== */
+.icon {
+  font-size: 30px!important;
+  color: #151515;
+}
