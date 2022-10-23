@@ -23,7 +23,7 @@ p {
 }
 /* ===== nav ===== */
 .main_header {
-  background-color: #151515;
+  background-color: rgba(20,20,20,.8);
 }
 .mini_header_btn a {
   color: #fff;
@@ -45,8 +45,8 @@ p {
 }
 
 /* ===== top slider ===== */
-.top_slider {
-  background-image: url(/img/next.jpeg);
+.top-background {
+  background-image: url(/img/slider1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
