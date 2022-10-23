@@ -1,0 +1,41 @@
+/* ===== RESPONSIVE SCREEN SIZES BOOTSTRAP 5.1.3 ===== */
+
+/* ===== X-SMALL - 576 + px ===== */
+
+@media (max-width: 576px) {
+}
+@media (max-width: 550px) {
+}
+/* ===== SMALL col-sm - 576px ===== */
+
+@media (max-width: 576) {
+}
+
+/* ===== MEDIUM col-md - 768px ===== */
+
+@media (max-width: 768px) {
+  .sidebar {
+    margin-top: 20px;
+  }
+  .acceptable {
+    display: block  !important;
+  }
+  .footer_News {
+    display: block  !important;
+  }
+  .resources {
+    display: block  !important;
+  }
+}
+/* ===== LARGE col-lg - 992px ===== */
+
+@media (min-width: 992px) {
+}
+/* ===== E-LARGE col-xl - 1200px ===== */
+
+@media (min-width: 1200px) {
+}
+/* ===== EXTRA-EXTRA-LARGE col-xxl - 1400px ===== */
+
+@media (min-width: 1400px) {
+}
