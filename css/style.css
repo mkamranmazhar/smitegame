@@ -66,6 +66,15 @@ p {
 }
 
 /* ===== footer ===== */
+.footer_background {
+  background-color: #151515;
+}
+.newsletter, h5, p {
+  color: #fff;
+}
+.checkbox, label, input {
+  color: #fff;
+}
 .icon {
   font-size: 30px!important;
   color: #151515;

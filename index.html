@@ -69,7 +69,7 @@
           </div>
 
           <div class="slider_search col-12 mb-4">
-            <form id="gamertag" class="gamertag col-6" action="" method="POST" style="margin: 0 auto;">
+            <form id="gamertag" class="gamertag col-md-6" action="" method="POST" style="margin: 0 auto;">
               <div class="form-group">
                 <div class="input-group">
                   <input type="text" class="form-control shadow-none rounded-0" placeholder="Player Name or Gamertag" required spellcheck="false" autocomplete="off" autocorrect="off" autocapitalize="off">
@@ -82,7 +82,7 @@
           </div>
 
           <div class="col-12 mb-5">
-            <div class="slider_icon col-6 d-flex justify-content-around" style="margin: 0 auto;">
+            <div class="slider_icon col-md-6 d-flex justify-content-around" style="margin: 0 auto;">
               <a href="" target="_blank"><i class="fa fa-windows" aria-hidden="true"></i></a>
               <a href="" target="_blank"><i class="fa fa-steam" aria-hidden="true"></i></a>
               <a href="" target="_blank"><i class="fa fa-digg" aria-hidden="true"></i></a>
@@ -444,90 +444,94 @@
       </div>
     </div>
   </section>
-  <!-- ======= NEWSLETTER ======= -->
-  <section class="subscribe py-5">
-    <div class="container">
-      <div class="row">
-        <div class="px-lg-0 col-xxl-7 col-xl-7 col-lg-7 col-md-7 col-sm-7">
-          <h5>GET THE LATEST SMITE UPDATES</h5>
-          <p>Subscribe to our newsletter</p>
-        </div>
-        <div class="px-lg-0 col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-5">
-          <form action="" id="subscriberform" name="subscriberform" method="POST">
-          <div class="input-group mb-3">
-            <input autocomplete="off" type="email" class="form-control shadow-none rounded-0 pl-4 mr-1 py-4" id="subscriber" name="subscriber" maxlength="60" placeholder="Enter Your Email" required>
-            <button class="btn btn-dark shadow-none rounded-0" type="news-submit" id="ssubmit" name="news-submit">Try it out</button>
+  <section class="footer_background">
+
+    <!-- ======= NEWSLETTER ======= -->
+    <div class="subscribe py-5">
+      <div class="container">
+        <div class="row">
+          <div class="newsletter px-lg-0 col-xxl-7 col-xl-7 col-lg-7 col-md-7 col-sm-7">
+            <h5>GET THE LATEST SMITE UPDATES</h5>
+            <p>Subscribe to our newsletter</p>
           </div>
-          <div class="checkbox">
-            <label>
-              <input class="mr-1" type="checkbox" value="" required> I agree to receive newsletter from SmiteGuru.
-            </label>
+          <div class="px-lg-0 col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-5">
+            <form action="" id="subscriberform" name="subscriberform" method="POST">
+            <div class="input-group mb-3">
+              <input autocomplete="off" type="email" class="form-control shadow-none rounded-0 pl-4 mr-1 py-4" id="subscriber" name="subscriber" maxlength="60" placeholder="Enter Your Email" required>
+              <button class="btn btn-dark shadow-none rounded-0" type="news-submit" id="ssubmit" name="news-submit">Try it out</button>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input class="mr-1" type="checkbox" value="" required> I agree to receive newsletter from SmiteGuru.
+              </label>
+            </div>
+            </form>
+            <!-- SUCESS ALERT DIV -->
+            <div class="alerts pl-4 mt-3" id="alerts" role="alert"></div>
           </div>
-          </form>
-          <!-- SUCESS ALERT DIV -->
-          <div class="alerts pl-4 mt-3" id="alerts" role="alert"></div>
         </div>
       </div>
     </div>
+    <!-- ======= FOOTER ======= -->
+    <footer class="smite_footer mb-4">
+      <div class="container">
+        <div class="row">
+          <div class="px-lg-0 col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12">
+            <h5 class="mb-3"><i class="fa fa-bolt" aria-hidden="true"></i> SmiteGuru.Info</h5>
+            <p>The leading source for smite player profiles, rankings, and builds.</p>
+            <ul class="social list-inline">
+              <li class="list-inline-item"><a href="" target="_blank"><i class="icon fa fa-facebook-square" aria-hidden="true"></i></a></li>
+              <li class="list-inline-item"><a href="" target="_blank"><i class="icon fa fa-twitter-square" aria-hidden="true"></i></a></li>
+              <li class="list-inline-item"><a href="" target="_blank"><i class="icon fa fa-instagram" aria-hidden="true"></i></a></li>
+              <li class="list-inline-item"><a href="" target="_blank"><i class="icon fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+              <li class="list-inline-item"><a href="" target="_blank"><i class="icon fa fa-pinterest-square" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+          <div class="service px-lg-0 col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-4 d-flex justify-content-end">
+            <ul class="nav flex-column">
+              <h5 class="mb-3">Acceptable</h5>
+              <li class="nav-item mb-2"><a href="" class="p-0 text-muted">Privacy Policy</a></li>
+              <li class="nav-item mb-2"><a href="" class="p-0 text-muted">Affiliate Policy</a></li>
+              <li class="nav-item mb-2"><a href="" class="p-0 text-muted">Terms of Use</a></li>
+              <li class="nav-item mb-2"><a href="" class="p-0 text-muted">Disclaimer</a></li>
+              <li class="nav-item mb-2"><a href="" class="p-0 text-muted">Sitemap</a></li>
+            </ul>
+          </div>
+          <div class="company px-lg-0 col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-4 d-flex justify-content-end">
+            <ul class="nav flex-column">
+              <h5 class="mb-3">Smite News</h5>
+              <li class="nav-item mb-2"><a href="" class="p-0 text-muted">Smite Updates</a></li>
+              <li class="nav-item mb-2"><a href="" class="p-0 text-muted">Smite Esports</a></li>
+              <li class="nav-item mb-2"><a href="" class="p-0 text-muted">Smite Scores</a></li>
+              <li class="nav-item mb-2"><a href="" class="p-0 text-muted">Smite Skins</a></li>
+              <li class="nav-item mb-2"><a href="" class="p-0 text-muted">Smite Builds</a></li>
+            </ul>
+          </div>
+          <div class="country px-lg-0 col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-12 d-flex justify-content-end">
+            <ul class="nav flex-column">
+              <h5 class="mb-3">Resources</h5>
+              <li class="nav-item mb-2"><a href="" class="p-0 text-muted">Blog</a></li>
+              <li class="nav-item mb-2"><a href="" class="p-0 text-muted">About Us</a></li>
+              <li class="nav-item mb-2"><a href="" class="p-0 text-muted">Contact Us</a></li>
+              <li class="nav-item mb-2"><a href="" class="p-0 text-muted">Accessibility</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ======= COPYRIGHT ======= -->
+    <div class="copyright py-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 px-lg-0">
+            <p>&copy; Copyright 2022. All rights reserved.</p>
+            <p>Data provided by Hi-Rez Studios. &copy; Hi-Rez Studios, Inc. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </section>
-  <!-- ======= FOOTER ======= -->
-  <footer class="smite_footer mb-4">
-    <div class="container">
-      <div class="row">
-        <div class="px-lg-0 col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12">
-          <h5 class="mb-3"><i class="fa fa-bolt" aria-hidden="true"></i> SmiteGuru.Info</h5>
-          <p>The leading source for smite player profiles, rankings, and builds.</p>
-          <ul class="social list-inline">
-            <li class="list-inline-item"><a href="" target="_blank"><i class="icon fa fa-facebook-square" aria-hidden="true"></i></a></li>
-            <li class="list-inline-item"><a href="" target="_blank"><i class="icon fa fa-twitter-square" aria-hidden="true"></i></a></li>
-            <li class="list-inline-item"><a href="" target="_blank"><i class="icon fa fa-instagram" aria-hidden="true"></i></a></li>
-            <li class="list-inline-item"><a href="" target="_blank"><i class="icon fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-            <li class="list-inline-item"><a href="" target="_blank"><i class="icon fa fa-pinterest-square" aria-hidden="true"></i></a></li>
-          </ul>
-        </div>
-        <div class="service px-lg-0 col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-4 d-flex justify-content-end">
-          <ul class="nav flex-column">
-            <h5 class="mb-3">Acceptable</h5>
-            <li class="nav-item mb-2"><a href="" class="p-0 text-muted">Privacy Policy</a></li>
-            <li class="nav-item mb-2"><a href="" class="p-0 text-muted">Affiliate Policy</a></li>
-            <li class="nav-item mb-2"><a href="" class="p-0 text-muted">Terms of Use</a></li>
-            <li class="nav-item mb-2"><a href="" class="p-0 text-muted">Disclaimer</a></li>
-            <li class="nav-item mb-2"><a href="" class="p-0 text-muted">Sitemap</a></li>
-          </ul>
-        </div>
-        <div class="company px-lg-0 col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-4 d-flex justify-content-end">
-          <ul class="nav flex-column">
-            <h5 class="mb-3">Smite News</h5>
-            <li class="nav-item mb-2"><a href="" class="p-0 text-muted">Smite Updates</a></li>
-            <li class="nav-item mb-2"><a href="" class="p-0 text-muted">Smite Esports</a></li>
-            <li class="nav-item mb-2"><a href="" class="p-0 text-muted">Smite Scores</a></li>
-            <li class="nav-item mb-2"><a href="" class="p-0 text-muted">Smite Skins</a></li>
-            <li class="nav-item mb-2"><a href="" class="p-0 text-muted">Smite Builds</a></li>
-          </ul>
-        </div>
-        <div class="country px-lg-0 col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-12 d-flex justify-content-end">
-          <ul class="nav flex-column">
-            <h5 class="mb-3">Resources</h5>
-            <li class="nav-item mb-2"><a href="" class="p-0 text-muted">Blog</a></li>
-            <li class="nav-item mb-2"><a href="" class="p-0 text-muted">About Us</a></li>
-            <li class="nav-item mb-2"><a href="" class="p-0 text-muted">Contact Us</a></li>
-            <li class="nav-item mb-2"><a href="" class="p-0 text-muted">Accessibility</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <!-- ======= COPYRIGHT ======= -->
-  <div class="copyright py-2">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 px-lg-0">
-          <p>&copy; Copyright 2022. All rights reserved.</p>
-          <p>Data provided by Hi-Rez Studios. &copy; Hi-Rez Studios, Inc. All rights reserved.</p>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <!-- jQuery CDN -->
   <script src="https://code.jquery.com/jquery-3.6.0.js" ></script>
