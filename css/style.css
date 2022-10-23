@@ -43,6 +43,11 @@ p {
 .navbar-light .navbar-nav .nav-link:hover {
   color: #fff;
 }
+.navbar-light .navbar-toggler {
+  background-color: #fff;
+  color: #fff;
+  border-color: #fff;
+}
 
 /* ===== top slider ===== */
 .top-background {
