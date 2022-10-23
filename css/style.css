@@ -22,29 +22,47 @@ p {
   font-weight: 600;
 }
 /* ===== nav ===== */
+.main_header {
+  background-color: #151515;
+}
 .mini_header_btn a {
-  color: #151515;
+  color: #fff;
 }
 .navbar-light .navbar-brand {
   font-size: 22px;
   font-weight: 600;
+  color: #fff;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
   padding-right: 1rem;
   padding-left: 1rem;
 }
 .navbar-light .navbar-nav .nav-link {
-  color: #151515;
+  color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #fff;
 }
 
 /* ===== top slider ===== */
 .top_slider {
-  padding-top: 140px;
+  background-image: url(/img/next.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: overlay;
+  background-color: rgb(0 8 8 / 68%);
+  padding-bottom: 140px;
+}
+.top-menu {
   padding-bottom: 140px;
 }
 .slider_icon a i {
   font-size: 28px;
-  color: #151515;
+  color: #fff;
+}
+.discord a {
+  color: #fff;
 }
 
 /* ===== footer ===== */
